@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Dark Theme with GIF and Progress Bar</title>
     <!-- Materialize CSS CDN -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <style>
@@ -16,34 +16,34 @@
             padding: 20px;
         }
 
+        .gif-container {
+            margin: 20px 0;
+        }
+
         .progress {
             height: 30px; /* Height of the progress bar */
         }
 
-        .animated {
-            animation: fadeIn 1s ease-in; /* Animation for fade-in effect */
+        /* Animation for fade-in effect */
+        .fade-in {
+            animation: fadeIn 1s ease-in; /* Animation */
         }
 
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
-
-        .gif-container {
-            margin: 20px 0;
-        }
     </style>
 </head>
 <body>
-    <h1 class="animated">A CR1TICAL Repository</h1>
+    <h1 class="fade-in">CR1TICAL</h1>
     
-    <div class="gif-container animated">
-        <img src="https://c.tenor.com/HTkmYk28J80AAAAd/tenor.gif
-                  " alt="ChatGPT GIF" style="max-width: 100%; height: auto;">
+    <div class="gif-container fade-in">
+        <img src="https://media.tenor.com/images/56a80e2c2f235427d705af1bb03e2d34/tenor.gif" alt="ChatGPT GIF" style="max-width: 100%; height: auto;">
     </div>
 
-    <div class="progress animated">
-        <div class="determinate" style="width: 100%;">100% Made WithChatGPT</div>
+    <div class="progress fade-in">
+        <div class="determinate" style="width: 100%;">100% ChatGPT</div>
     </div>
 
     <!-- Materialize JS CDN -->
