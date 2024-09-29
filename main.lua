@@ -1,5 +1,10 @@
 local rso_encryption = {
-        byte1 = _G.RobloxScript -- Pretends to be a script ig
+        byte1 = _G.RobloxScript; -- RobloxScript. Normal but with Less features
+        byte2 = _G.LocalScript; -- LocalScript / ClientScript
+        byte3 = _G.PluginScript; -- Script with plugin permmisions
+        byte4 = _G.ServerScript; -- Normal Script (SERVER)
+        byte5 = _G.CoreScript; -- core part of roblox
+        byte6 = _G.RoactScript; -- roblox is powered with roact so this just modifies roact
 }
 local scriptA = [[
 local KnitClient = {}
