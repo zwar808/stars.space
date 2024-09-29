@@ -10,7 +10,7 @@ local scriptA = [[
 local KnitClient = {}
 local OnPurchase = game.ReplicatedStorage.Remotes.TS.OnPurchase
 getgenv().Kits = KnitClient.Player.Kits
-OnPurchase:FireClient(getgenv().Kits, rso_encryption.byte1, "Hannah")
+OnPurchase:FireClient(getgenv().Kits, rso_encryption.byte2, "Hannah")
 game.Players.LocalPlayer.PlayerScripts.Modules.anticheat:Destroy()
 ]]
 
